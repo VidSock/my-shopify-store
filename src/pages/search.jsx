@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import slugify from "@sindresorhus/slugify"
 import debounce from "debounce"
 import { CgChevronRight, CgChevronLeft } from "react-icons/cg"
-import { Layout } from "../components/layout"
+import { Layout } from "../components/layout1"
 import CrossIcon from "../icons/cross"
 import SortIcon from "../icons/sort"
 import FilterIcon from "../icons/filter"
@@ -238,7 +238,7 @@ function SearchPage({
                     product={{
                       title: node.title,
                       priceRangeV2: node.priceRangeV2,
-                      slug: `/products/${slugify(node.productType)}/${
+                      slug: `/products/${slugify(node.productType)}${
                         node.handle
                       }`,
                       // The search API and Gatsby data layer have slightly different images available.

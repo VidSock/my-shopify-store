@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Layout } from "../components/layout"
+import { Layout } from "../components/layout1"
 import { heading, paragraph, container } from "./404.module.css"
 
 export default function NotFoundPage() {

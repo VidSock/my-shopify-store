@@ -9,7 +9,7 @@ module.exports = {
     siteDescription:
       "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
     siteImage: "/default-og-image.jpg",
-    twitter: "@gatsbyjs",
+    twitter: "toddlambert",
   },
   flags: {
     FAST_DEV: true,

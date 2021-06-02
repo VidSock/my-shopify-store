@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { Layout } from "../components/layout"
+import { Layout } from "../components/layout1"
 import { ProductListing } from "../components/product-listing"
 import {
   container,
@@ -12,7 +12,7 @@ import {
 
 export const query = graphql`
   query {
-    shopifyCollection(handle: { eq: "frontpage" }) {
+    shopifyCollection(handle: { eq: "twilightscapes-prints" }) {
       products {
         ...ProductCard
       }

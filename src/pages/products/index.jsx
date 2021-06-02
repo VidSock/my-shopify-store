@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { Layout } from "../../components/layout"
+import { Layout } from "../../components/layout1"
 import { ProductListing } from "../../components/product-listing"
 import { Seo } from "../../components/seo"
 import { MoreButton } from "../../components/more-button"

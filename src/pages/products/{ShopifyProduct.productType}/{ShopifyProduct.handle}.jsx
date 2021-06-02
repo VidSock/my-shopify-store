@@ -1,13 +1,13 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import { Layout } from "../../../components/layout"
+import { Layout } from "../../../components/layout1"
 import isEqual from "lodash.isequal"
 import { GatsbyImage, getSrc } from "gatsby-plugin-image"
 import { StoreContext } from "../../../context/store-context"
 import { AddToCart } from "../../../components/add-to-cart"
 import { NumericInput } from "../../../components/numeric-input"
 import { formatPrice } from "../../../utils/format-price"
-import { Seo } from "../../../components/seo"
+import { Seo } from "../../../components/seo1"
 import { CgChevronRight as ChevronIcon } from "react-icons/cg"
 import {
   productBox,
@@ -105,11 +105,7 @@ export default function Product({ data: { product, suggestions } }) {
   return (
     <Layout>
       {firstImage ? (
-        <Seo
-          title={title}
-          description={description}
-          image={getSrc(firstImage.gatsbyImageData)}
-        />
+        <></>
       ) : undefined}
       <div className={container}>
         <div className={productBox}>
